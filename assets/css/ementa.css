@@ -1,0 +1,95 @@
+@import url('base.css');
+
+#content > main {
+    padding: 4% 8%;
+    width: 75%;
+    margin: 0 auto;
+    color: var(--text-2);
+}
+
+h1 {
+    margin: 20px 0;
+    color: var(--blue-title);
+    font-size: clamp(2rem, 1.2rem + 2.5vw, 2.25rem);
+}
+
+h2 {
+    font-size: 22px;
+    margin: 18px 0;
+    color: var(--text-2);
+}
+
+p.curso {
+    margin: 15px 0;
+}
+
+p {
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+    color: var(--text-muted);
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: 30px 0;
+}
+
+ul > li {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 32px;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: var(--surface);
+    border: 2px solid var(--surface);
+    transition: 0.4s;
+}
+
+ul > li:hover {
+    border-color: var(--primary);
+}
+
+ul > li:last-child {
+    border-bottom: none;
+}
+
+ul > li > h4 {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: var(--blue);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul > li > p.text {
+    margin: 4px 0;
+    font-size: 19px;
+    color: var(--text-muted);
+    font-weight: 400;
+}
+
+ul > li > p.hours {
+    margin: 4px 0;
+    font-size: 17px;
+    color: var(--blue-title);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 400;
+}
+
+@media (max-width: 48rem) {
+    #content > main {
+        padding: 4% 8%;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .editor, #content > header > a span {
+        display: none;
+    }
+}

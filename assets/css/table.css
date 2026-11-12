@@ -1,0 +1,27 @@
+table {
+    width: 100%;
+    margin-top: 24px;
+    border-radius: 16px;
+    padding: 16px;
+    border-spacing: 0;
+}
+
+tr, td {
+    padding: 15px;
+    border-bottom: 2px solid var(--border);
+    cursor: pointer;
+}
+
+tr {
+    border-spacing: 0;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+tr:last-child td {
+    border: none;
+}
+
+td {
+    vertical-align: top;
+}
