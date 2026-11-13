@@ -20,3 +20,5 @@ const html = alunos
 }).join("");
 
 document.getElementById('alunos').innerHTML = html;
+
+lucide.createIcons();

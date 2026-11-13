@@ -43,6 +43,12 @@ ul > li:last-child {
     border-bottom: none;
 }
 
+li.disabled {
+    filter: grayscale(100%) !important;
+    opacity: 0.4;
+    pointer-events: none;
+}
+
 div.student > a {
     display: inline-block;
     font-size: 19px;

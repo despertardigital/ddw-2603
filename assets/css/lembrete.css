@@ -1,0 +1,34 @@
+.lembrete {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 14px 18px;
+    margin: 20px 0;
+    border-radius: 14px;
+    background: var(--blue-bg);
+    border: 1px solid var(--blue);
+    max-width: 720px;
+}
+
+.lembrete-icone {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: var(--blue-bg);
+    color: var(--blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lembrete p {
+    margin: 0;
+    color: var(--text-muted);
+    line-height: 1.5;
+}
+
+.lembrete strong {
+    color: var(--blue);
+    font-weight: 700;
+}

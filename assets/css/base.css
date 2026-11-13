@@ -3,6 +3,7 @@
 @import url('header.css');
 @import url('card.css');
 @import url('table.css');
+@import url('lembrete.css');
 
 * {
     margin: 0;

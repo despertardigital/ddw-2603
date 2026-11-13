@@ -9,7 +9,7 @@ const html = alunos
 .filter(aluno => aluno.ativo)
 .map((aluno, index) => {
     return `
-        <li>
+        <li class="disabled">
             <div class="student">
                 <div class="avatar ${ cores[index] }">${aluno.avatar}</div>
                 <a href="${aluno.urlEncerramento}" target="_blank">${aluno.nome}</a>
@@ -20,3 +20,5 @@ const html = alunos
 }).join("");
 
 document.getElementById('alunos').innerHTML = html;
+
+lucide.createIcons();
