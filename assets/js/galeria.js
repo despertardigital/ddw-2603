@@ -23,7 +23,7 @@ const render = (images, id_element) => {
 let srcText = "sala/foto?.jpg";
 let altText = "Foto ?";
 
-let images1 = Array.from({ length: 0 });
+let images1 = Array.from({ length: 6 });
 
 images1 = images1.map((item, key) => {
     let index = ++key;
