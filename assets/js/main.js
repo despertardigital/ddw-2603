@@ -124,7 +124,7 @@ alunos.sort((a, b) =>
 
 const turma = {
     codigo: 'ddw-2603',
-    curso: 'Devenvolvimento Web I',
+    curso: 'Desenvolvimento Web I',
     modalidade: 'Presencial',
     periodo: 'De 16/11/2026 à 08/12/2026',
     cargaHoraria: '40 horas',
